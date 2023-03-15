@@ -102,7 +102,7 @@ float  y= x*0.05f;
     System.out.println(u);
  }
 
-else if(x>1000000){
+else if(x>1000){
   System.out.printf("your tax is");
   System.out.println(l);
 }
@@ -111,7 +111,5 @@ else{
     System.out.println(y);
 }
 System.out.println("thank you");
-
-
-}
+    }
 }
