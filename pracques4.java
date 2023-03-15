@@ -39,9 +39,5 @@ System.out.println(name3.indexOf("   "));
 String name4="Dear <|name|> ,\n This java course is nice. \nThanks";
 
 System.out.println(name4.replace("name","Anurag"));
-
-
-
-
     }
 }

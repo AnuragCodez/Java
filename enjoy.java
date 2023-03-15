@@ -42,4 +42,3 @@ System.out.println("num is not prime");
    }
 
     }
-
