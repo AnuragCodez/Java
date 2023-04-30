@@ -4,15 +4,20 @@ public class function {
     
     public static void main(String args[])
     {
-     String dashdash= dash();
-
-System.out.println(dashdash);
+        int c=0;
+        while (c!=21)
+         {
+           int ans= multi(2, 4);
+            System.out.println(ans*c);
+            c++;
+        }
     }
-      static String dash()
+      static int multi(int a ,int b)
       {
-        String greeting = "How are you";
-
-        return greeting;
-
-      }
-      }
+       
+        int ans=1;
+       int dash= a*b;
+        
+        return dash*ans;
+  }
+}
